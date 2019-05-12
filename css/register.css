@@ -1,0 +1,140 @@
+#header {
+  height: 90px; }
+  #header .logo {
+    float: left;
+    margin: 30px 0 0 45px; }
+    #header .logo img {
+      height: 47px; }
+  #header .header-r {
+    float: right;
+    margin: 59px 45px 0 0;
+    font-size: 14px;
+    font-weight: 900;
+    color: #a4a4a4; }
+    #header .header-r i {
+      font-weight: 900; }
+    #header .header-r b {
+      font-weight: 700;
+      padding: 0 7px; }
+
+#main {
+  height: 490px;
+  padding: 12px 10px 0 0;
+  background: url(../images/login-banner.jpg) no-repeat; }
+  #main .login {
+    width: 430px;
+    height: 460px;
+    background: #fff;
+    float: right; }
+    #main .login .login-t {
+      width: 380px;
+      height: 285px;
+      margin: 0 auto;
+      padding-top: 25px;
+      display: block;
+      position: relative; }
+      #main .login .login-t h4 {
+        font: 18px/40px ""; }
+        #main .login .login-t h4 p {
+          float: left; }
+        #main .login .login-t h4 a {
+          float: right;
+          font-size: 14px;
+          display: block;
+          padding-left: 14px;
+          color: #529bef; }
+      #main .login .login-t h3 {
+        height: 24px; }
+      #main .login .login-t input {
+        width: 270px;
+        height: 42px;
+        border: 0;
+        float: left; }
+    #main .login .account {
+      margin-bottom: 15px;
+      border: 1px solid #ccc; }
+      #main .login .account i {
+        background: url(../images/login-b.png) no-repeat;
+        background-position: 0 0;
+        width: 20px;
+        height: 22px;
+        display: inline-block;
+        float: left;
+        margin: 10px 5px 0 14px; }
+      #main .login .account b {
+        display: block;
+        float: right;
+        margin: 7px 10px 0 0; }
+    #main .login .pass {
+      border: 1px solid #ccc;
+      margin-bottom: 15px; }
+      #main .login .pass i {
+        background: url(../images/login-b.png) no-repeat;
+        background-position: 0 -22px;
+        width: 20px;
+        height: 22px;
+        display: inline-block;
+        float: left;
+        margin: 10px 5px 0 14px; }
+    #main .login .cipher {
+      border: 1px solid #ccc;
+      margin-bottom: 15px; }
+      #main .login .cipher i {
+        background: url(../images/login-b.png) no-repeat;
+        background-position: 0 -44px;
+        width: 20px;
+        height: 22px;
+        display: inline-block;
+        float: left;
+        margin: 10px 5px 0 14px; }
+        #main .login .cipher b {
+        display: inline-block;
+        text-align: center;
+        color: #fff;
+        font: 14px/42px "";
+        background: #666;
+        width: 69px;}
+    #main .login .verification {
+      border: 1px solid #ccc;
+      width: 230px;
+      margin: 10px 0; }
+      #main .login .verification input {
+        width: 174px; }
+      #main .login .verification i {
+        background: url(../images/login-b.png) no-repeat;
+        background-position: 0 -66px;
+        width: 20px;
+        height: 22px;
+        display: inline-block;
+        float: left;
+        margin: 10px 5px 0 14px; }
+      #main .login .verification button {
+        position: absolute;
+        right: 0;
+        width: 136px;
+        height: 44px;
+        border: 1px solid #529bef;
+        background: #fff;
+        color: #529bef;
+        bottom: 0; }
+  #main .login-c {
+    margin: 0 auto;
+    width: 380px; }
+    #main .login-c h3 p {
+      float: left;
+      margin: 12px 0;
+      font-weight: 200;
+      font-size: 12px; }
+      #main .login-c h3 p input {
+        vertical-align: middle; }
+    #main .login-c h3 a {
+      text-decoration: underline;
+      color: #529bef; }
+    #main .login-c h4 input {
+      border: 0;
+      height: 42px;
+      width: 380px;
+      background: #009de6;
+      font-size: 18px;
+      color: #fff;
+      cursor: pointer; }

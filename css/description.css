@@ -1,0 +1,97 @@
+
+
+.main-t {
+  border-bottom: 1px solid #dfdfdf; }
+  .main-t .main-t-t {
+    font: 12px/4 "";
+    border-bottom: 1px solid #eee; }
+  .main-t .main-t-c {
+    border-bottom: 1px solid #eee; }
+    .main-t .main-t-c ul {
+      font: 12px/40px "";
+      padding-left: 20px; }
+      .main-t .main-t-c ul li {
+        float: left;
+        width: 110px; }
+  .main-t .main-t-b ul {
+    font: 12px/50px "";
+    float: left; }
+    .main-t .main-t-b ul li {
+      float: left;
+      color: #969696; }
+      .main-t .main-t-b ul li span {
+        margin: 0 40px;
+        display: inline-block; }
+  .main-t .main-t-b p {
+    float: right;
+    font: 12px/50px "";
+    margin-right: 30px; }
+    .main-t .main-t-b p .shop {
+      display: inline-block;
+      color: red;
+      margin: 0 5px; }
+
+.main-c {
+  background: #f5f5f5; }
+  .main-c ul {
+    padding-top: 17px; }
+    .main-c ul li {
+      float: left;
+      margin: 0 20px 10px 30px;
+      background: #fff; }
+      .main-c ul li .box {
+        padding: 0 20px 20px; }
+        .main-c ul li .box img {
+          display: block;
+          width: 180px;
+          height: 180px; }
+        .main-c ul li .box p {
+          font: 12px/36px "";
+          color: #333; }
+        .main-c ul li .box span {
+          display: block;
+          font: 14px/24px "";
+          color: #c80000; }
+        .main-c ul li .box b {
+          display: block;
+          height: 18px; }
+          .main-c ul li .box b img {
+            float: left;
+            width: 64px;
+            height: 11px;
+            vertical-align: middle;
+            margin-top: 4px; }
+          .main-c ul li .box b i {
+            float: right;
+            display: block;
+            color: #666;
+            font: 12px/18px ""; }
+      .main-c ul li h3 {
+        font: 14px/38px "";
+        text-align: center;
+        color: #c80000;
+        border-top: 1px solid #eee;
+        cursor: pointer; }
+
+.main-b {
+  background: #f5f5f5;
+  font: 16px/30px "";
+  color: #999;
+  padding: 15px 0 30px; }
+  .main-b span {
+    float: right;
+    display: block;
+    cursor: pointer;
+    width: 20px;
+    margin-right: 15px; }
+  .main-b ul {
+    float: right; }
+    .main-b ul li {
+      float: left;
+      width: 20px;
+      text-align: center;
+      cursor: pointer;
+      margin-right: 15px; }
+    .main-b ul li.te {
+      font-size: 18px;
+      color: #c80000; }

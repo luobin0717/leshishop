@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/login.css"/>
+</head>
+<body>
+    <div id="header">
+        <div class="logo">
+            <a href="index.html"><img src="images/login-logo.png"/></a>
+        </div>
+        <div class="header-r">
+            <span>语言：<i class="language">简体中文</i></span><b>|</b>
+            <span>国家/地区：<i class="region">中国</i></span><b>|</b>
+            <span>帮助</span>
+        </div>
+    </div>
+    <div id="main">
+        <div class="login">
+            <div class="login-t">
+                <h4 class="clear">
+                    <p>登录</p>
+                    <span class="message">
+                        短信验证码登录
+                    </span>
+                </h4>
+                <h3></h3>
+                <div class="account clear"><i></i><input type="text" placeholder="邮箱/手机号" id="txt"/><b><img src="../leshi/images/login-erweimamin.png"/></b></div>
+                <div class="cipher clear"><i></i><input type="password" placeholder="密码" id="pass"/><b></b></div>
+            </div>
+
+            <div class="login-t1">
+                    <h4 class="clear">
+                        <span class="goback">
+                             返回>
+                        </span>
+                    </h4>
+                    <h3></h3>
+                    <div class="account clear"><i></i><input type="text" placeholder="手机号" id="txt1"/><b><img src="../leshi/images/china.png"/></b></div>
+                    <div class="cipher clear"><i></i><input type="text" placeholder="输入验证码，点击图片更换" id="pass1"/><b></b></div>
+                    <div class="verification clear"><i></i><input type="text" id="code" placeholder="短信验证码"/><button>获取验证码</button></div>
+            </div>
+
+            <div class="login-c">
+                <h3 class="clear">
+                    <p class="clear">
+                        <input type="checkbox" checked="checked" />记住登录状态
+                    </p>
+                    <a href="#" class="reset">重置密码</a>
+                 </h3>
+                 <h4><input type="button" id="btn" value="登&nbsp;&nbsp;&nbsp;&nbsp;录"/></h4>
+            </div>
+            <div class="login-b">
+                <p>从这里出发， 开启乐视生态世界 <a href="register.html">立即注册</a></p>
+                <div class="other">
+                    <span>其他方式登入</span>
+                    <i></i>
+                    <s></s>
+                    <b>展开></b>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/login.js"></script>
+</html>
